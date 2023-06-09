@@ -1,0 +1,58 @@
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  border: 1px solid chocolate;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container-box {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.item {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.success-message {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 10px;
+  margin-top: 10px;
+}
+.dragging {
+  opacity: 0.5;
+}
+.main {
+  display: flex;
+}
+h2 {
+  color: chocolate;
+}
+.btn {
+  padding: 9px 25px;
+  font-size: 20px;
+  background-color: black;
+  color: chocolate;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  color: white;
+}
